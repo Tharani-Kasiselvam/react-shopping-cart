@@ -33,7 +33,7 @@ const ProdSection = ({product_list,modifyCartCount}) => {
   return (
     <div>
         {/* <!-- Product image--> */}
-        <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="safety_pins" />
+        <img className="card-img-top" src={product_list.img} alt={product_list.prod_name} />
             {/* <!-- Product details--> */}
             <div className="card-body p-4">
                 <div className="text-center">

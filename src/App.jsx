@@ -20,61 +20,71 @@ const App = () => {
         "prod_name" : "Pencil Box",
         "prod_price" : "₹150.00",
         "offer" : "N",
-        "offer_price" : ""
+        "offer_price" : "",
+        "img" : "https://m.media-amazon.com/images/I/61KasEBk3HL._SX679_.jpg"
     },
     {
         "prod_name" : "School Bag",
         "prod_price" : "₹500.00",
         "offer" : "Y",
-        "offer_price" : "₹335.00" 
+        "offer_price" : "₹335.00" ,
+        "img" : "https://staranddaisy.in/wp-content/uploads/2024/02/kids-School-bags-Genius_Comet_Blue_1.jpg"
     },
     {
         "prod_name" : "Water Bottle",
         "prod_price" : "₹230.00",
         "offer" : "N",
-        "offer_price" : "" 
+        "offer_price" : "" ,
+        "img" : "https://m.media-amazon.com/images/I/61q8CuKeHWL._SX679_.jpg"
     },
     {
         "prod_name" : "Pencil",
         "prod_price" : "₹100.00",
-        "offer" : "Y",
-        "offer_price" : "₹89.00" 
+        "offer" : "N",
+        "offer_price" : "",
+        "img" : "https://m.media-amazon.com/images/I/61+vZ1bAiEL._SY879_.jpg"
     },
     {
         "prod_name" : "Rubber",
-        "prod_price" : "₹135.00",
-        "offer" : "N",
-        "offer_price" : "" 
+        "prod_price" : "₹105.00",
+        "offer" : "Y",
+        "offer_price" : "₹89.00",
+        "img" : "https://i.etsystatic.com/21765430/r/il/74b711/2845704081/il_1588xN.2845704081_lid2.jpg"
     },
     {
         "prod_name" : "Lunch Towel",
         "prod_price" : "₹20.00",
         "offer" : "N",
-        "offer_price" : "" 
+        "offer_price" : "",
+        "img" : "https://zahya.in/wp-content/uploads/2023/11/1-2.jpg"
     },
     {
         "prod_name" : "Sharpner",
         "prod_price" : "₹20.00",
         "offer" : "N",
-        "offer_price" : "" 
+        "offer_price" : "",
+        "img" : "https://5.imimg.com/data5/FZ/KS/NI/SELLER-3545876/pencil-sharpener-for-kids-1000x1000.jpg"
     },
     {
         "prod_name" : "NoteBook",
         "prod_price" : "₹120.00",
         "offer" : "Y",
-        "offer_price" : "₹99" 
+        "offer_price" : "₹99",
+        "img" : "https://5.imimg.com/data5/SELLER/Default/2021/9/IR/IA/TI/133605709/kids-school-notebook-1000x1000.jpg"
     },
     {
         "prod_name" : "Pen",
         "prod_price" : "₹15.00",
         "offer" : "N",
-        "offer_price" : "" 
+        "offer_price" : "",
+        "img" : "https://5.imimg.com/data5/DY/YD/MY-15468671/44-1000x1000.jpg"
     },
     {
         "prod_name" : "Tiffen Box",
-        "prod_price" : "₹489.00",
+        "prod_price" : "₹365.00",
         "offer" : "Y",
-        "offer_price" : "₹365.00" 
+        "offer_price" : "₹290.00",
+        "img" : "https://m.media-amazon.com/images/I/31hlyhUFcOL._SX300_SY300_QL70_FMwebp_.jpg"
     }]
   return (
     <div>
