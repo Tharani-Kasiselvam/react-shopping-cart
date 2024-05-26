@@ -17,34 +17,64 @@ const App = () => {
     }
 
     const products = [{
-        "prod_name" : "Safety Pins",
-        "prod_price" : "₹20.00",
+        "prod_name" : "Pencil Box",
+        "prod_price" : "₹150.00",
         "offer" : "N",
         "offer_price" : ""
     },
     {
-        "prod_name" : "First Aid Box",
-        "prod_price" : "₹200.00",
+        "prod_name" : "School Bag",
+        "prod_price" : "₹500.00",
         "offer" : "Y",
-        "offer_price" : "₹135.00" 
+        "offer_price" : "₹335.00" 
     },
     {
-        "prod_name" : "Buds",
-        "prod_price" : "₹130.00",
+        "prod_name" : "Water Bottle",
+        "prod_price" : "₹230.00",
         "offer" : "N",
         "offer_price" : "" 
     },
     {
-        "prod_name" : "A to Z Mini Screw Driver",
-        "prod_price" : "₹260.00",
+        "prod_name" : "Pencil",
+        "prod_price" : "₹100.00",
         "offer" : "Y",
-        "offer_price" : "₹189.00" 
+        "offer_price" : "₹89.00" 
     },
     {
-        "prod_name" : "A to Z Mini Screw Driver",
-        "prod_price" : "₹260.00",
+        "prod_name" : "Rubber",
+        "prod_price" : "₹135.00",
+        "offer" : "N",
+        "offer_price" : "" 
+    },
+    {
+        "prod_name" : "Lunch Towel",
+        "prod_price" : "₹20.00",
+        "offer" : "N",
+        "offer_price" : "" 
+    },
+    {
+        "prod_name" : "Sharpner",
+        "prod_price" : "₹20.00",
+        "offer" : "N",
+        "offer_price" : "" 
+    },
+    {
+        "prod_name" : "NoteBook",
+        "prod_price" : "₹120.00",
         "offer" : "Y",
-        "offer_price" : "₹200.00" 
+        "offer_price" : "₹99" 
+    },
+    {
+        "prod_name" : "Pen",
+        "prod_price" : "₹15.00",
+        "offer" : "N",
+        "offer_price" : "" 
+    },
+    {
+        "prod_name" : "Tiffen Box",
+        "prod_price" : "₹489.00",
+        "offer" : "Y",
+        "offer_price" : "₹365.00" 
     }]
   return (
     <div>
@@ -107,6 +137,31 @@ const App = () => {
                     <div className="col mb-5">
                         <div className="card h-100">
                             <ProdSection product_list = {products[4]} modifyCartCount={modifyCartCount}/>
+                         </div>
+                    </div>
+                    <div className="col mb-5">
+                        <div className="card h-100">
+                            <ProdSection product_list = {products[5]} modifyCartCount={modifyCartCount}/>
+                         </div>
+                    </div>
+                    <div className="col mb-5">
+                        <div className="card h-100">
+                            <ProdSection product_list = {products[6]} modifyCartCount={modifyCartCount}/>
+                         </div>
+                    </div>
+                    <div className="col mb-5">
+                        <div className="card h-100">
+                            <ProdSection product_list = {products[7]} modifyCartCount={modifyCartCount}/>
+                         </div>
+                    </div>
+                    <div className="col mb-5">
+                        <div className="card h-100">
+                            <ProdSection product_list = {products[8]} modifyCartCount={modifyCartCount}/>
+                         </div>
+                    </div>
+                    <div className="col mb-5">
+                        <div className="card h-100">
+                            <ProdSection product_list = {products[9]} modifyCartCount={modifyCartCount}/>
                          </div>
                     </div>
                    </div>
