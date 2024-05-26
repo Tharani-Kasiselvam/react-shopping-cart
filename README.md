@@ -11,13 +11,13 @@
     a. Product Name   
     b. Product Price   
     c. Offer (Y or N)   
-    d. Offer Price [Data required if Offer value is Y else blank]
+    d. Offer Price [Data required if Offer value is Y else blank]   
     e. Product Image
 
 # Usage:   
-    Once the Shopping Cart website loaded, we need to review the Schoold Kid products from the Product List. Click on "Add to Cart" and validate the count increased in the Total Cart count and button name changes to "Remove from Cart".
-
-    On click of "Remove from Cart", the overall Cart count will decrease and the button tect will change back to "Add to Cart".
+    - Once the Shopping Cart website loaded, we need to review the Schoold Kid products from the Product List.   
+    - Click on "Add to Cart", the overall Cart count increases and Button text changes to "Remove from Cart".   
+    - On click of "Remove from Cart", the overall Cart count will decrease and the Button tect will change back to "Add to Cart".
 
 
 ***Author: Tharani K***
