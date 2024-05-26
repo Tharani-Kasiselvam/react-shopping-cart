@@ -2,9 +2,10 @@ import Header from "./Components/Header"
 import ProdSection from "./Components/ProdSection"
 import { useState } from "react"
 const App = () => {
-
+    //State to navigate the Cart Counter based on Add/Remove
     const [navCartCount, updateNavCartCount] = useState(0)
 
+    //Modifies the Cart counter - plus for increment and minus for decrement
     const modifyCartCount = (count_operation) => {
         if(count_operation=="plus")
             updateNavCartCount(navCartCount+1)
@@ -16,6 +17,7 @@ const App = () => {
             updateNavCartCount(navCartCount)
     }
 
+    //Product Lists
     const products = [{
         "prod_name" : "Pencil Box",
         "prod_price" : "₹150.00",
@@ -86,8 +88,10 @@ const App = () => {
         "offer_price" : "₹290.00",
         "img" : "https://m.media-amazon.com/images/I/31hlyhUFcOL._SX300_SY300_QL70_FMwebp_.jpg"
     }]
+
   return (
     <div>
+        {/* Navigation - Top */}
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container px-4 px-lg-5">
                 <a className="navbar-brand" href="#!">EASY Shopping</a>
@@ -117,15 +121,16 @@ const App = () => {
             </div>
         </nav>
 
-        {/* Header */}
+        {/* Header Component*/}
         <Header />
 
-{/* Section */}
+        {/* Section */}
         <section className="py-5">
             <div className="container px-4 px-lg-5 mt-5">
                 <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div className="col mb-5">
                         <div className="card h-100">
+                            {/* A single Component to load Multiple Products */}
                             <ProdSection product_list = {products[0]} modifyCartCount={modifyCartCount}/>
                          </div>
                     </div>
