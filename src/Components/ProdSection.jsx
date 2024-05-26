@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const ProdSection = (props) => {
+const ProdSection = ({product_list,modifyCartCount}) => {
     const [buttonTxt,updateBtnTxt] = useState("Add to Cart")
     const [cartCount,updateCartCount] = useState("0")
 
@@ -21,10 +21,13 @@ const ProdSection = (props) => {
     }
 
     const manageCart = () => {
-        if(buttonTxt=="Add to Cart")
-         updateBtnTxt("Remove from Cart")
-        else
+        if(buttonTxt=="Add to Cart"){
+         updateBtnTxt("Remove from Cart");
+         modifyCartCount("plus")
+        }
+        else{
             updateBtnTxt("Add to Cart")
+            modifyCartCount("minus")        }
     }
 
   return (
@@ -35,9 +38,9 @@ const ProdSection = (props) => {
             <div className="card-body p-4">
                 <div className="text-center">
                     {/* <!-- Product name--> */}
-                    <h5 className="fw-bolder">{props.product_list.prod_name}</h5>
+                    <h5 className="fw-bolder">{product_list.prod_name}</h5>
                     {/* <!-- Product price--> */}
-                    {isOffer(props.product_list.offer,props.product_list.prod_price,props.product_list.offer_price)}
+                    {isOffer(product_list.offer,product_list.prod_price,product_list.offer_price)}
                 </div>
                 
             </div>
